@@ -2,6 +2,6 @@
 
 ##WEBVR
 
-* [texture]()
-* [lab]()
+* [yanis texture](../WEBVR/demoVR.html)
+* [yanis lab](../WEBVR/lab.html)
 
