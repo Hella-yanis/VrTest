@@ -1,0 +1,46 @@
+<html>
+
+
+  <head>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+  </head>
+
+
+  <body>
+    <a-scene>
+
+      <a-assets>
+       <img id="grass" src="./assets/images/grass 1 - 256x256.png">
+       <img id="wall" src="./assets/images/brick-wall-512x512.jpg">
+       <img id="sky" src="./assets/images/cosmic-star-tapestry-stockcake.jpg">
+      
+      </a-assets>
+
+
+
+      <a-plane src="#wall" material="side: double" repeat="8 4" position="0 1 -2" width="2" height="2" color="silver" geometry="width: 4"></a-plane>
+      <a-plane src="#wall" material="side: double" repeat="2 4" position="-2.00179 1 0" width="2" height="2" color="silver" geometry="width: 4" rotation="0 90 0"></a-plane>
+      <a-plane src="#wall" material="side: double" repeat="2 4" position="2 1 0" width="2" height="2" color="silver" geometry="width: 4" rotation="0 90 0"></a-plane>
+      <a-plane src="#wall" material="side: double" repeat="2 4" position="-0.85721 1 -1.33468" width="2" height="2" color="silver" geometry="width: 0.56"></a-plane>
+      <a-plane src="#wall" material="side: double" repeat="2 4" position="0.52647 1.02222 -0.94814" width="2" height="2" color="silver" geometry="width: 2.1" rotation="0 90 0"></a-plane>
+      <a-plane src="#wall" material="side: double" repeat="2 4" position="-1.29257 1 0.68363" width="2" height="2" color="silver" geometry="width: 1.42"></a-plane>
+      <a-plane src="#wall" material="side: double" repeat="2 4" position="-0.57877 1 -0.31676" width="2" height="2" color="silver" geometry="width: 2.03" rotation="0 90 0"></a-plane>
+      <a-plane src="#wall" material="side: double" repeat="2 4" position="0.80176 1 0.66903" width="2" height="2" color="silver" geometry="width: 0.56"></a-plane>
+      <a-plane src="#wall" material="side: double" repeat="2 4" position="0.52647 1.02222 1.32309" width="2" height="2" color="silver" geometry="width: 1.33" rotation="0 90 0"></a-plane>
+      <a-plane src="#wall" material="side: double" repeat="2 4" position="1.08786 1.0042 -0.37349" width="2" height="2" color="silver" geometry="width: 2.1" rotation="0 90 0"></a-plane>
+      <a-plane src="#wall" material="side: double" repeat="2 4" position="1.52578 1.0042 0.95229" width="2" height="2" color="silver" geometry="width: 2.1" rotation="0 90 0"></a-plane>
+      <a-plane src="#wall" material="side: double" repeat="8 4" position="-0.24723 1 2.00091" width="2" height="2" color="silver" geometry="width: 3.54"></a-plane>
+
+
+
+
+      <a-camera position="0 1.6 0" look-controls wasd-controls></a-camera>
+      
+   
+      <a-plane src="#grass" position="0 0 0" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-sky src="#sky" color="blue"></a-sky>
+    </a-scene>
+  </body>
+
+
+</html>
