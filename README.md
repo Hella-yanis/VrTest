@@ -2,6 +2,7 @@
 
 ##WEBVR
 
-* [yanis texture](../WEBVR/demoVR.html)
-* [yanis lab](../WEBVR/lab.html)
+* [yanis texture](https://hella-yanis.github.io/VrTest/demoVR.html)
+* [yanis lab]([../WEBVR/lab.html](https://hella-yanis.github.io/VrTest/lab.html))
+
 
